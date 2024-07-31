@@ -1,0 +1,66 @@
+body{
+    background-color: rgba(134, 125, 218, 0.514) ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /*  permite a quebra de linha*/
+
+    /*border: solid 1px #0e0000;*/
+    gap: 20px;
+}
+
+
+.card{
+    background-color: rgb(255, 255, 255);
+    width: 300px; /*largura*/
+    padding: 20px ;/* distancia da borda por conteudo interno*/
+    margin-bottom: 16px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        /* border: solid 1px #ff0000 solid = linha continua */
+        border-radius: 16px;
+        
+}
+
+.foto{
+    width: 100%; /*  A largura vai ser 100% da largura do elemento pai*/
+    aspect-ratio: 1/1;
+    object-fit: cover;
+
+    /* border: solid 1px #00d9ff ; */
+}
+
+.nome{
+    color:#130101;
+    font-size: 20px; /*tamanho da letra*/
+    font-weight: 800;/*espessura da linha da letra*/
+}
+
+.armazenamento{
+    /* border: solid 1px #ff0000; */
+    margin-left: 20px;
+    
+}
+
+.ram{
+
+  
+    margin-left: 20px;
+
+}
+
+.cor{
+
+    
+    margin-left: 20px;
+
+}
+
+.preco{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: right;
+
+   /* border: solid 1px #ffaa00; */
+
+}

@@ -1,0 +1,44 @@
+body{
+    background-color: #000000;
+   color: #999999;
+
+   font-family: "Asap", sans-serif;
+   font-size: 24px;
+}
+
+
+.card{
+    display:flex;
+    justify-content: space-around;
+    color: #999999;
+    background-color: #111111;
+}
+
+.card:nth-child(2n){
+   background-color: #1d1d1d;
+
+}                 
+
+input[type='text'],input[type='number']{
+    border: solid 2px#5c4dd3;
+
+    font-family: "Asap", sans-serif;
+    font-size: 18px;
+
+}
+button{
+    background-color: #6300d5;
+    color: #fffafa;
+
+    font-family: "Asap", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+
+    padding: 8px 16px
+}
+
+/* font-family: "Courier Prime", monospace;
+
+
+
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conversor de Temperatura</title>
+    <script>
+        function converter() {
+            let temperatura = parseFloat(document.getElementById("temperatura").value);
+            let escalaOrigem = document.getElementById("escalaOrigem").value;
+            let escalaDestino = document.getElementById("escalaDestino").value;
+            let resultado;
+
+            if (escalaOrigem === "Celsius") {
+                if (escalaDestino === "Fahrenheit") {
+                    resultado = (temperatura * 9/5) + 32;
+                } else if (escalaDestino === "Kelvin") {
+                    resultado = temperatura + 273.15;
+                }
+            } else if (escalaOrigem === "Fahrenheit") {
+                if (escalaDestino === "Celsius") {
+                    resultado = (temperatura - 32) * 5/9;
+                } else if (escalaDestino === "Kelvin") {
+                    resultado = (temperatura - 32) * 5/9 + 273.15;
+                }
+            } else if (escalaOrigem === "Kelvin") {
+                if (escalaDestino === "Celsius") {
+                    resultado = temperatura - 273.15;
+                } else if (escalaDestino === "Fahrenheit") {
+                    resultado = (temperatura - 273.15) * 9/5 + 32;
+                }
+            }
+
+            document.getElementById("resultado").innerHTML = resultado.toFixed(2);
+        }
+    </script>
+</head>
+<body>
+    <h1>Conversor de Temperatura</h1>
+
+    <label for="temperatura">Temperatura:</label>
+
+    <input type="number" id="temperatura" name="temperatura"><br><br>
+
+    <label for="escalaOrigem">Escala de Origem:</label>
+
+    <select id="escalaOrigem" name="escalaOrigem">
+
+        <option value="Celsius">Celsius</option>
+        <option value="Fahrenheit">Fahrenheit</option>
+        <option value="Kelvin">Kelvin</option>
+
+    </select><br><br>
+    <label for="escalaDestino">Escala de Destino:</label>
+    <select id="escalaDestino" name="escalaDestino">
+        <option value="Celsius">Celsius</option>
+        <option value="Fahrenheit">Fahrenheit</option>
+        <option value="Kelvin">Kelvin</option>
+    </select><br><br>
+
+    <button onclick="converter()">Converter</button><br><br>
+    <label for="resultado">Resultado:</label>
+    <span id="resultado"></span>
+</body>
+</html>

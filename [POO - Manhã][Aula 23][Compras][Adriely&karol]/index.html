@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AK é cria</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+    <form action="#">
+        <div>
+        <label for="iptId">ID: </label>
+        <input type="text" id="iptId"> 
+        </div>
+
+        <div>
+            <label for="iptDescricao">Descrição: </label>
+            <input type="text" id="iptDescricao"> 
+        </div>
+        
+        <div> 
+            <label for="iptPrecoUnitario">Preço Unitário :</label>
+            <input type="text" id="iptPrecoUnitario"> 
+        </div>
+        
+        <div>
+            <label for="iptMarca">Marca do produto :</label>
+            <input type="text" id="iptMarcaDoProduto">
+        </div>
+
+        <button id="btnAdicionar">Adicionar ao carrinho</button>
+    </form>
+
+    <div id="containerCards"></div>
+
+    <div  id= "containerTotal"> </div>
+
+    
+
+
+    <script src="classes.js"></script>
+    <script src="designer.js"></script>
+    <script src="controlador.js"></script>
+
+    
+
+
+</body>
+</html>
