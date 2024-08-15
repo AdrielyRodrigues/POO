@@ -8,6 +8,10 @@
     flex-direction: row;/*elementos ficam na vertical*/
     gap: 12px;/* espaço entre os elementos filhos*/
 
+    justify-content: space-evenly;
+
     flex-wrap: wrap;/*permite a quebra de linha*/
 
+
+        border: solid 2px #000;
 }
