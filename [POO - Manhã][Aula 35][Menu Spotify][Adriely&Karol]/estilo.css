@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(0, 0, 0) ;
+}
+
+.item-menu-principal{
+ 
+
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: flex-start;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   color:aliceblue;
+}
+
+.icone{
+    gap: 25px;
+    width: 30px; 
+
+}
