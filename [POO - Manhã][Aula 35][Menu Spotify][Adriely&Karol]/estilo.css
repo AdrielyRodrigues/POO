@@ -2,19 +2,61 @@ body{
     background-color: rgb(0, 0, 0) ;
 }
 
-.item-menu-principal{
- 
+
+.menu-principal{
+
+    display: flex;
+    flex-direction: column;
+   /* justify-content: center;*/
+    /* align-items: center; */
+    /* height: 100px; */
+    border-radius:  6px;
+      border: solid 2px #ffaa00; 
+      gap: 15px;
+      padding: 25px;
+      width: 280px;
+}
+
+
+.Mãe{
 
     display: flex;
     flex-direction: row;
-    gap: 25px;
-    justify-content: flex-start;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-between;
+    color:rgb(252, 252, 252);
+    border: solid 2px #f20000; 
+    height: 20px;
+    padding: 10px;
+
+
+}
+
+.filhos{
+    gap: 10px;
+    align-items: center;
    color:aliceblue;
+   height: 20px;
+}
+
+.item-menu-principal{
+    gap: 10px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: flex-start;
+    align-items: center;
+   color:aliceblue;
+   height: 30px;
+   background-color:rgb(0, 0, 0);
+   
+
+   border: solid 1px #9c9da1; 
+  
+
+  
 }
 
 .icone{
-    gap: 25px;
+   
     width: 30px; 
-
+    
 }
