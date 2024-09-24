@@ -1,0 +1,76 @@
+.pagina{
+    padding: 20px;
+
+    /**/
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    /**/
+
+    border: solid 1px rgb(0, 255, 0);
+}
+
+.topo{
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid 1px rgb(255, 0, 0);
+}
+
+.grupo-cards{
+
+    display: flex;
+    flex-direction:row;
+    gap: 16px;
+    padding: 20px;
+    border: solid 1px rgb(255, 0, 0);
+}
+
+.card{
+
+    padding: 20px;
+    width: 280px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px ;
+
+    border-radius: 12px;
+    border: solid 3px rgb(30, 0, 255);
+
+
+}
+/*----------------------------------------------------*/
+.icone{
+
+    border: solid 2px rgb(30, 0, 255);
+
+    width: 24px;
+    height: 24px;
+
+}
+
+.titulo{
+
+    font-size: 24px;
+    font-weight: 600;
+    border: solid 2px rgb(30, 0, 255);
+}
+
+
+.texto{
+
+    border: solid 2px rgb(30, 0, 255);
+
+}
+
+.link{
+
+    color: blueviolet;
+    border: solid 2px rgb(30, 0, 255);
+
+}

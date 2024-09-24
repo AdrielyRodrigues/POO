@@ -23,7 +23,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color:rgb(252, 252, 252);
+    color:rgb(0, 0, 0);
     border: solid 2px #f20000; 
     height: 20px;
     padding: 10px;
