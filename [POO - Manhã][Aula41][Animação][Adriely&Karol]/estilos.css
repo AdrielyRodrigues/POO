@@ -1,0 +1,51 @@
+/* Animação*/
+
+@keyframes azular { /*O nome desta animação é azular*/
+   
+    from{
+
+    }
+    to{
+        background-color: blue;
+        transform: translateX(600px);
+    }
+
+}
+
+@keyframes pulser {
+    0%{
+        transform: scale(1.2);
+    }
+    50%{
+        transform: scale(1.5) rotate(360deg);
+        border: solid 2px brown;
+
+    }
+    100%{
+        transform: scale(1.2) ;
+    }
+}
+
+/*------------------- */
+
+.quadrado{
+    margin: 300px;
+    width: 100px;
+    height: 100px;
+
+    background-color: brown;
+    color: white ;
+
+    animation-name: pulser;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+/*
+.quadrado:hover{
+    animation-name: pulser;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+*/
