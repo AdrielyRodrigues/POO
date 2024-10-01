@@ -1,4 +1,30 @@
-.mae{
-    height: 100px;
-    width: 1000px;
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.img2{
+    object-fit: cover;
+    width: 100%;
+    height:360px;
+    
+}
+
+.icones{
+    display: flex;
+    flex-direction: row;
+   justify-content:space-around;
+
+   
+}
+.text {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+    width: 190px;
+   
+}
+.foto{
+
+    display: flex;
+    flex-direction: column;
 }
