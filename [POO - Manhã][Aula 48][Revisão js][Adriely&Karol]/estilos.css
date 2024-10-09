@@ -1,5 +1,10 @@
 #topo{
-    
+
     padding: 20px;
     border: solid 2px black;
+}
+
+.img{
+    height: 200px;
+    width: 200px;
 }
