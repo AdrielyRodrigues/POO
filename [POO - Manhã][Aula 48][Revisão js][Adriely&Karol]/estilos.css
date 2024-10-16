@@ -1,10 +1,36 @@
 #topo{
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     padding: 20px;
-    border: solid 2px black;
+    border: solid 2px rgb(255, 1, 1);
+
+}
+body{
+    background-color: black;
+    color: white;
 }
 
-.img{
-    height: 200px;
-    width: 200px;
+.card{
+    display:flex;
+    flex-direction:column;
+    width: 160px;
+    border: solid 1px rgb(106, 0, 255);
+}
+
+.foto{
+    width: 160px;
+    height: 160px;
+
+    object-fit: cover;
+}
+
+#containerCards{
+
+    display: flex;
+    flex-direction: row;
+   gap: 16px;
+
+    border: solid 2px red;
+    padding: 12px
 }

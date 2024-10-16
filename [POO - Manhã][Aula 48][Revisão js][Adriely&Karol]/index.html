@@ -12,22 +12,23 @@
 
     <div id="topo">
 
-        <form action="">
+        <!-- event.preventDefault() não deixa a página ser 
+        carregada ou redireicionada quando se envia o formilário. -->
 
+        <form action="#" onsubmit="event.preventDefault()">
             <label for="iptPreco"> Preço: R$</label>
-            <input type="text" id="iptPreco">
-            <button> filtrar</button>
-                                                
-                        
+            <input type="text" id="iptPreco"> </input>
+
+            <label for="inpTipo"> Tipo: </label>
+            <input type="text" id="iptTipo"> </input>
+
+            <button id="btnFiltrar"> filtrar</button>              
          </form>
                 
     </div>
 
-    <div class="img" >
-    </div>
-    <div id="containerCards">
-
-    </div>
+    
+    <div id="containerCards"> </div>
 
      <script src="objetos.js"></script>
      <script src="designer.js"></script>
