@@ -8,7 +8,7 @@ let lanches = {
 let lanches2 ={
     nome:"pastel",
     tipo: 'salgado',
-    foto: 'pastel.avif',
+    foto: 'pastel.avif', 
     preco: 4.50
 }
 let lanches3 ={
