@@ -1,3 +1,4 @@
-let containerCards = document.getElementById(containerCards);
+let containerCards = document.getElementById('containerCards');
 
-desenharCards(tagContainer, listaDeTimes)
+
+desenharCards(containerCards, listaDeTimes);

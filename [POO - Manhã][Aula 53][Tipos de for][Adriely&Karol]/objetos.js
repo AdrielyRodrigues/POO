@@ -29,7 +29,7 @@ let time5 = {
     nome : 'Palmeiras',
     anoDeFundacao: 1914,
     estadoDeOrigem:'São Paulo',
-    fotoEscudo: 'images.js'
+    fotoEscudo: 'images.png'
 }
 
 let listaDeTimes = [];
