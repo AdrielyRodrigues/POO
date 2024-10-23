@@ -1,0 +1,25 @@
+#topo{
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    padding: 20px;
+    gap: 16px;
+    border: solid 2px rgb(255, 9, 9);
+}
+
+
+
+#containerCards{
+    display: flex;
+    flex-direction: row;
+    border: solid 2px white;
+    flex-wrap: wrap;
+}
+.escudo{
+
+    
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: solid 2px rgb(185, 9, 255);
+}

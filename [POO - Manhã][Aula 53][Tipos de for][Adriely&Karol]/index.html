@@ -4,13 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
     <title>Document</title>
 </head>
 <body>
 
+
+    <div id="topo">
+        <form action="#" onsubmit="event.preventDefault()">
+        <p> 
+                <label for="iptnome" > Nome: </label>
+                <input type="text" id="iptnome">
+
+                <label for="iptestado" > Estado: </label>
+                <input type="text" id="iptestado">
+
+                <label for="iptano" > Ano: </label>
+                <input type="number" id="iptano">
+            </p>
+
+            <label for="iptescudo" > Escudo: </label>
+            <input type="file" id="iptescudo">
+
+            <button id="btnCadastrar">Cadastrar</button>
+
+        </form>
+     
+    </div>
+
+
     <div id="containerCards"></div>
 
-    
     <script src="objetos.js"></script>
     <script src="designer.js"></script>
     <script src="controlador.js"></script>
