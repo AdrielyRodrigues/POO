@@ -17,14 +17,22 @@
                 <input type="text" id="iptnome">
 
                 <label for="iptestado" > Estado: </label>
-                <input type="text" id="iptestado">
+                <select id="iptestado">
+                    <option value="Alagoas">Alagoas</option>
+                    <option value="Pernambuco">Pernambuco</option>
+                    <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                    <option value="Amazonas">Amazonas</option>
+                    <option value="Espírito santos">Espírito santos</option>
+                    <option value="Espírito santos">Rio Grande do Sul</option>
+
+                </select>
 
                 <label for="iptano" > Ano: </label>
-                <input type="number" id="iptano">
+                <input type="month" id="iptano" min="1890-01" max="1920-12">
             </p>
 
             <label for="iptescudo" > Escudo: </label>
-            <input type="file" id="iptescudo">
+            <input type="file" id="iptescudo" accept="image/*">
 
             <button id="btnCadastrar">Cadastrar</button>
 
