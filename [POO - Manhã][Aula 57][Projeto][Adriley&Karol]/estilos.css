@@ -1,0 +1,12 @@
+.body{
+    border: 100px;
+    border-color: black;
+}
+
+.splash{
+    background-color: aqua;
+    border: 100px;
+    margin: 10px;
+    justify-content: center;
+
+}
