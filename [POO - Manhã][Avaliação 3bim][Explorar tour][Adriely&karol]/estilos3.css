@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #e0f7ff;
+    width: 350px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Cabeçalho */
+.header {
+    margin-bottom: 20px;
+}
+
+.home-icon img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.header h1 {
+    font-size: 18px;
+    color: #007acc;
+    margin: 10px 0 5px;
+}
+
+.header p {
+    font-size: 12px;
+    color: #007acc;
+    margin: 0;
+}
+
+/* Conteúdo principal */
+main h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #007acc;
+}
+
+.packages {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Estilo dos pacotes */
+.package {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: left;
+}
+
+.package img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.info {
+    padding: 10px;
+}
+
+.info h3 {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.info p {
+    margin: 5px 0;
+    font-size: 12px;
+    color: #555;
+}
+
+.price strong {
+    color: #007acc;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 20px;
+}
+
+footer button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007acc;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+footer button:hover {
+    background-color: #005f99;
+}
